@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 class Control extends Component{
     render(){
-      console.log("Control render");
       return (
         <ul>
         <li><a href="/create" onClick={function(e){
